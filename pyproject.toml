@@ -12,7 +12,8 @@ dependencies = [
     "pandas (>=2.2.3,<3.0.0)",
     "scikit-learn (>=1.6.1,<2.0.0)",
     "streamlit (>=1.45.1,<2.0.0)",
-    "laion-clap (>=1.1.7,<2.0.0)"
+    "laion-clap (>=1.1.7,<2.0.0)",
+    "catboost (>=1.2.8,<2.0.0)"
 ]
 
 
