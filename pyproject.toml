@@ -1,0 +1,21 @@
+[project]
+name = "neural-critic"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "vlad_belms",email = "vladbelms@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "streamlit (>=1.45.1,<2.0.0)",
+    "laion-clap (>=1.1.7,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
