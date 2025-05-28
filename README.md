@@ -35,7 +35,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 ```bash
 pip install poetry
-poetry install
+poetry install --no-root
 ```
 
 ## Run the App
@@ -46,7 +46,7 @@ Launch the Streamlit interface:
 streamlit run main.py
 ```
 
-Upload `.wav` files from an album, and Neural Critic will analyze the audio to produce a professional critic-style score based on patterns learned from Metacritic reviews.
+Upload songs files from an album, and Neural Critic will analyze the audio to produce a professional critic-style score based on patterns learned from Metacritic reviews.
 
 ## Model Training
 
