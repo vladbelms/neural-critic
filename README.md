@@ -64,7 +64,7 @@ We welcome contributions! Submit issues or pull requests to improve features, pe
 
 ## License
 
-MIT License
+[MIT License](LICENSE) 
 
 ## Contact
 
